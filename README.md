@@ -67,7 +67,7 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
 - Oyunun çıkışına özel dijital bir lansman kampanyası organize edilecek.
 
 # Product Backlog URL
-[Product Backlog Board]([https://trello.com/b/GK7H2HxV/bootcamp](https://trello.com/b/crt19Rjk/group-51-product-backlog))
+[Product Backlog Board](https://trello.com/b/crt19Rjk/group-51-product-backlog)
 
 # **Sprint 1**
 
@@ -87,23 +87,23 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
 -  **Daily Scrum Süreci:** Daily Scrum toplantılarımız her gün **Jitsi Meet** üzerinden düzenlenmiştir. Ek olarak, günlük operasyonlar ve hızlı geri bildirimler için ekip içi **WhatsApp** grubu aktif olarak kullanılmıştır.
 <details>
 <summary>Daily Scrum Ekran Görüntüleri (Genişletmek için tıklayın)</summary>
+  
 ![IMG-20250720-WA0024](https://github.com/user-attachments/assets/0b98ed96-e842-4015-93bc-078c8f7a315a)
 ![IMG-20250720-WA0023](https://github.com/user-attachments/assets/de5637ac-cfcd-4760-9fbe-447d3f39d791)
 ![IMG-20250720-WA0022](https://github.com/user-attachments/assets/5cf6e865-59cf-4891-97cc-ca2d21cf10cd)
 ![IMG-20250720-WA0025](https://github.com/user-attachments/assets/6e1d002c-6ccd-40c1-ad3d-cfd93c806c40)
+
 </details>
-![IMG-20250720-WA0024](https://github.com/user-attachments/assets/09cc4491-5aef-4777-a3b8-a9c7153d7c3d)
-![IMG-20250720-WA0023](https://github.com/user-attachments/assets/783865ad-b9da-4f70-a555-37da11c14df3)
-![IMG-20250720-WA0022](https://github.com/user-attachments/assets/605060e7-5f40-4dd1-9e85-c9bf0810f745)
-![IMG-20250720-WA0025](https://github.com/user-attachments/assets/e2f57097-a67d-433a-863c-8dfa7645146c)
 
 ## **Sprint Board**
 
 <details>
 <summary>Ürün Durumu: Ekran Görüntüleri (Genişletmek için tıklayın)</summary>
+  
 ![WhatsApp Image 2025-07-20 at 17 56 39 jpeg](https://github.com/user-attachments/assets/6de33c4e-257d-48c7-b4d5-6540e37eb141)
 ![WhatsApp Image 2025-07-20 at 17 56 40 jpeg](https://github.com/user-attachments/assets/8a68765e-c160-44a6-8419-6098334a7fa6)
 ![WhatsApp Image 2025-07-20 at 17 56 42 (1) jpeg](https://github.com/user-attachments/assets/9a82a032-73ca-45c3-91a8-ed2a9e83d0f5)
+
 </details>
 
 ## **Sprint Review**
