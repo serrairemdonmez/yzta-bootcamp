@@ -2,13 +2,14 @@
 **Team Puff³ (Puff Cube)**
 
 # **Takım Logosu**
+<img width="128" height="256" alt="Team-Logo" src="https://github.com/user-attachments/assets/8b20f302-ca22-4730-9eac-65fdcbd5dd86)" />
 
-# **Takım Elemanları**
-|               | Name        | Title             | Social                        |
-|---------------|-------------|------------------ |-------------------------------|
-| ![Img](url)   | Mert Can Sarıbıyık | Product Owner|[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mert-can-saribiyik-b49207205/)|
-| ![Img](url)   | Serra İrem Dönmez | Developer | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/serra-irem-dönmez-58b6852a5)|
-| ![Img](url)   | Esra Küçük | Scrum Mater | |
+# **Takım Elemanları**  
+| | Name        | Title             | Social                        |
+|-|-------------|------------------ |-------------------------------|
+| | Mert Can Sarıbıyık | Product Owner|[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mert-can-saribiyik-b49207205/)|
+| | Serra İrem Dönmez | Developer | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/serra-irem-dönmez-58b6852a5)|
+| | Esra Küçük | Scrum Mater | |
 
 # **Oyun İsmi**
 **Battle Puffs**
@@ -28,12 +29,12 @@ Artık bilinmeyen bir büyüyle saldırgan hale geldi.
 Bu şeker isyanını durdurabilecek tek kişi: **Sen**.
 
 Bir kılıç, sağlam refleksler ve biraz da ironi ile bu rengârenk kabusu bastırma vakti geldi.  
-Arenalarda düşmanlar dalga dalga üzerinize gelirken, her hamleniz sizi ya *bir kahramana, ya da **şekerlerin kurbanına* dönüştürecek.
+Arenalarda düşmanlar dalga dalga üzerinize gelirken, her hamleniz sizi ya bir kahramana, ya da *şekerlerin kurbanına* dönüştürecek.
 
 > Tatlılar sevimli olabilir... ama siz kılıcınızı tatlılıkla kuşanmadınız.
 
 ## **Oynanış Özellikleri**
-- ⚔ Aksiyon dolu dalga sistemi
+- Aksiyon dolu dalga sistemi
 - Masum görünümlü ama ölümcül düşmanlar
 - Renkli ve hızlı tempolu arena haritası
 - Dinamik saldırı ve kaçınma sistemi
@@ -64,3 +65,11 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
 
 ## **Lansman Etkinliği ve Erken Erişim**
 - Oyunun çıkışına özel dijital bir lansman kampanyası organize edilecek.
+
+# Product Backlog URL
+[Product Backlog Board](https://trello.com/b/GK7H2HxV/bootcamp)
+
+# **Sprint 1**
+
+# **Sprint 2**
+
