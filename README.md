@@ -67,9 +67,47 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
 - Oyunun çıkışına özel dijital bir lansman kampanyası organize edilecek.
 
 # Product Backlog URL
-[Product Backlog Board](https://trello.com/b/GK7H2HxV/bootcamp)
+[Product Backlog Board]([https://trello.com/b/GK7H2HxV/bootcamp](https://trello.com/b/crt19Rjk/group-51-product-backlog))
 
 # **Sprint 1**
 
 # **Sprint 2**
+- **Sprint Notları:** Sprint süresince yapılması planlanan görevler, Product Backlog içerisinde kategorilere ayrılmış şekilde düzenlenmiştir. Trello Board üzerinde kartlar, proje bölümlerine göre ayrılarak daha okunabilir ve yönetilebilir hale getirilmiştir. Klasik User Story formatı kullanılmamış; bunun yerine her kart, doğrudan yapılacak görevi ve teknik detaylarını içerecek şekilde oluşturulmuştur.
+- **Sprint içinde tamamlanması tahmin edilen puan:** 19 puan
+- **Puanlama Sistemi:** Tüm backlog görevleri, zorluk derecelerine göre Fibonacci serisine dayalı puanlama ile değerlendirilmiştir. Kullanılan puan aralıkları:
+  - 13 puan → Çok zor
+  - 8 puan → Zor
+  - 5 puan → Orta
+  - 3 puan → Kolay
+  - 2 puan → Basit
+  - 1 puan → Çok basit
+  Toplam backlog puanı: 87 puan
+- **Backlog Düzeni ve Görev Seçimi:** Backlog, oyunun temel oynanış mekaniklerine öncelik verilerek hazırlanmıştır. Sprint 2’de, projenin altyapısını oluşturacak olan karakter hareketleri, kamera sistemi, yakın dövüş saldırıları gibi kritik sistemlere odaklanılmıştır.
+-  **Ekip Yapısı ve Sprint Kapasitesi:** Ekip sayısı az olduğu için ve geç başlanıldığı için sabit bir sprint puanı belirlemek yerine, görevler esnek planlanmış ve yapılabilecek maksimum iş yükü göz önünde bulundurulmuştur.
+-  **Daily Scrum Süreci:** Daily Scrum toplantılarımız her gün **Jitsi Meet** üzerinden düzenlenmiştir. Ek olarak, günlük operasyonlar ve hızlı geri bildirimler için ekip içi **WhatsApp** grubu aktif olarak kullanılmıştır.
+<details>
+<summary>Daily Scrum Ekran Görüntüleri (Genişletmek için tıklayın)</summary>
+![IMG-20250720-WA0024](https://github.com/user-attachments/assets/0b98ed96-e842-4015-93bc-078c8f7a315a)
+![IMG-20250720-WA0023](https://github.com/user-attachments/assets/de5637ac-cfcd-4760-9fbe-447d3f39d791)
+![IMG-20250720-WA0022](https://github.com/user-attachments/assets/5cf6e865-59cf-4891-97cc-ca2d21cf10cd)
+![IMG-20250720-WA0025](https://github.com/user-attachments/assets/6e1d002c-6ccd-40c1-ad3d-cfd93c806c40)
+</details>
 
+## **Sprint Board**
+
+<details>
+<summary>Ürün Durumu: Ekran Görüntüleri (Genişletmek için tıklayın)</summary>
+![WhatsApp Image 2025-07-20 at 17 56 39 jpeg](https://github.com/user-attachments/assets/6de33c4e-257d-48c7-b4d5-6540e37eb141)
+![WhatsApp Image 2025-07-20 at 17 56 40 jpeg](https://github.com/user-attachments/assets/8a68765e-c160-44a6-8419-6098334a7fa6)
+![WhatsApp Image 2025-07-20 at 17 56 42 (1) jpeg](https://github.com/user-attachments/assets/9a82a032-73ca-45c3-91a8-ed2a9e83d0f5)
+</details>
+
+## **Sprint Review**
+- Sprint 2 süresince, oyunun temel mekanikleri üzerine odaklanılmış ve yakın dövüş tabanlı sistemler başarıyla entegre edilmiştir. Sprint sonunda geliştirilen sistemlerde büyük bir hata veya bloklayıcı problemle karşılaşılmamıştır. Temel oynanış prototipi başarıyla oluşturulmuştur.
+- **Sprint Review Katılımcıları:** Mert Can Sarıbıyık, Serra İrem Dönmez, Esra Küçük.
+
+## **Sprint Retrospective**
+- Sprint 2 boyunca ekibin küçük ve dinamik olması bazı avantajlar sağlasa da, grup yalnızca üç kişiden oluştuğu için klasik anlamda tam bir retrospective toplantısı gerçekleştirilmemiştir. Ancak ekip içi iletişim sürekli olarak sağlanmış ve alınan ortak kararlar aşağıdaki gibi olmuştur:
+  - Oyunda kullanılacak assetlerin büyük çoğunluğunun hazır (store'dan veya açık kaynaklı) olarak kullanılmasına karar verilmiştir.
+  - Proje ilerledikçe asset bazlı ihtiyaçlar tekrar değerlendirilecek ve gerekli görülürse özelleştirmeye gidilecektir.
+- **Sprint Retrospective Katılımcıları:** Mert Can Sarıbıyık, Serra İrem Dönmez, Esra Küçük.
