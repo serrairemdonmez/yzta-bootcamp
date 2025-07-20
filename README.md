@@ -92,6 +92,10 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
 ![IMG-20250720-WA0022](https://github.com/user-attachments/assets/5cf6e865-59cf-4891-97cc-ca2d21cf10cd)
 ![IMG-20250720-WA0025](https://github.com/user-attachments/assets/6e1d002c-6ccd-40c1-ad3d-cfd93c806c40)
 </details>
+![IMG-20250720-WA0024](https://github.com/user-attachments/assets/09cc4491-5aef-4777-a3b8-a9c7153d7c3d)
+![IMG-20250720-WA0023](https://github.com/user-attachments/assets/783865ad-b9da-4f70-a555-37da11c14df3)
+![IMG-20250720-WA0022](https://github.com/user-attachments/assets/605060e7-5f40-4dd1-9e85-c9bf0810f745)
+![IMG-20250720-WA0025](https://github.com/user-attachments/assets/e2f57097-a67d-433a-863c-8dfa7645146c)
 
 ## **Sprint Board**
 
