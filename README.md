@@ -70,7 +70,8 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
 [Product Backlog Board](https://trello.com/b/crt19Rjk/group-51-product-backlog)
 
 # **Sprint 1**
-
+- Büt ve mezuniyet sınavlarından dolayı sprint 1'i maalesef tamamlayamadık.
+  
 # **Sprint 2**
 - **Sprint Notları:** Sprint süresince yapılması planlanan görevler, Product Backlog içerisinde kategorilere ayrılmış şekilde düzenlenmiştir. Trello Board üzerinde kartlar, proje bölümlerine göre ayrılarak daha okunabilir ve yönetilebilir hale getirilmiştir. Klasik User Story formatı kullanılmamış; bunun yerine her kart, doğrudan yapılacak görevi ve teknik detaylarını içerecek şekilde oluşturulmuştur.
 - **Sprint içinde tamamlanması tahmin edilen puan:** 19 puan
