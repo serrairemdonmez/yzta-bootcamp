@@ -2,14 +2,14 @@
 **Team Puff³ (Puff Cube)**
 
 # **Takım Logosu**
-<img width="128" height="256" alt="Team-Logo" src="https://github.com/user-attachments/assets/8b20f302-ca22-4730-9eac-65fdcbd5dd86)" />
+<img src="https://github.com/user-attachments/assets/d6fa50a9-79e4-4bcf-9784-07d1ad8c1c8b" width="128" height="256" alt="TeamLogo-1" />
 
 # **Takım Elemanları**  
 | | Name        | Title             | Social                        |
 |-|-------------|------------------ |-------------------------------|
 | | Mert Can Sarıbıyık | Product Owner|[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mert-can-saribiyik-b49207205/)|
 | | Serra İrem Dönmez | Developer | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/serra-irem-dönmez-58b6852a5)|
-| | Esra Küçük | Scrum Mater | |
+| | Esra Küçük | Scrum Master | |
 
 # **Oyun İsmi**
 **Battle Puffs**
