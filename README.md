@@ -15,7 +15,7 @@
 **Battle Puffs**
 
 # **Oyun Logosu**
-<img width="512" height="512" alt="Logo" src="https://github.com/user-attachments/assets/bffaf5d1-4dea-4347-841e-2481e321fb85" />
+<img width="512" height="512" alt="Logo" src="https://github.com/user-attachments/assets/6c8a9797-b0aa-4938-ace1-b3f3a3e1efa1" />
 
 # **Oyun Açıklaması**
 **Battle Puffs**, tatlı görünümlü ama ölümcül düşmanlara karşı savaştığınız, refleks ve aksiyon odaklı bir *hayatta kalma arenası* oyunudur.  
@@ -97,6 +97,7 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
 </details>
 
 ## **Sprint Board**
+<img width="1920" height="1080" alt="Sprint2" src="https://github.com/user-attachments/assets/ae941825-7bc2-4f6a-8857-1b21d7eed21f" />
 
 <details>
 <summary>Ürün Durumu: Ekran Görüntüleri (Genişletmek için tıklayın)</summary>
