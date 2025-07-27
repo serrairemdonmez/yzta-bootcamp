@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     private Rigidbody rb;
     private Animator animator;
     private Transform mainCam;
+    private InputReader inputReader;
 
     [Header("Movement Settings")]
     [SerializeField] private float movementSpeed = 5f;
@@ -30,75 +31,62 @@ public class Player : MonoBehaviour
 
     [Header("Attack Settings")]
     [SerializeField] private float attackCooldown = .5f; // Cooldown time for attacks
-    [SerializeField] private float attackIdleResetThreshold = 0.5f; // Cooldown time for attack types
 
     private float attackTime = 0f;
-    private float attackIdleTime = 0f; 
 
     private int attackType = 1; // 0: no attack, 1: attack type 1, 2: attack type 2, 3: attack type 3
-    private bool isAttacking = false; // Flag to check if the player is attacking
     private bool isDefending = false; // Flag to check if the player is defending
 
     private void Awake() {
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
+        inputReader = GetComponent<InputReader>();
         mainCam = Camera.main.transform;
     }
 
     private void Update() {
         // Sprint key :
-        if (Input.GetKeyDown(KeyCode.LeftShift)) {
+        if (inputReader.IsSprintPressed()) {
             isSprint = true;
         }
-        else if (Input.GetKeyUp(KeyCode.LeftShift)) {
+        else {
             isSprint = false;
         }
 
         // Attack key : 
-        if (Input.GetMouseButton(0)) {
+        if (inputReader.IsAttackPressed()) {
             Attack();
-            isAttacking = true;
         }
-        else if (Input.GetMouseButtonUp(0)) {
-            attackTime = 0f; // Reset attack cooldown when mouse button is released
-            isAttacking = false;
+        else {
+            attackTime = 0f; 
+            attackType = 1;
         }
 
         // Jump key :
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded()) {
+        if (inputReader.IsJumpTriggered() && IsGrounded()) {
             Jumping();
         }
 
         // Defend key :
-        if (Input.GetMouseButtonDown(1) && !isDefending) {
+        if (inputReader.IsDefendPressed()) {
             animator.SetBool("defend", true);
-            isDefending = true;
-
             // Reset attack type when defense is triggered
-            attackType = 1;
-            animator.SetInteger("attackType", 0);
+            if (!isDefending) {
+                attackType = 1;
+                animator.SetInteger("attackType", 0);
+                attackTime = 0f; // Reset attack cooldown when defense is triggered
+            }
+
+            isDefending = true;
         }
-        else if (Input.GetMouseButtonUp(1)) {
+        else {
             animator.SetBool("defend", false);
             isDefending = false;
+            Debug.Log("Defend released");
         }
 
         ApplyCustomGravity();
-
-        // AttackType reset logic:
-        if (!isAttacking) {
-            attackIdleTime += Time.deltaTime;
-            if (attackIdleTime >= attackIdleResetThreshold) {
-                attackType = 1;
-                attackIdleTime = 0f;
-            }
-        }
-        else {
-            attackIdleTime = 0f;
-        }
     }
-
-
 
     private void FixedUpdate() {
         Movement();
@@ -106,8 +94,8 @@ public class Player : MonoBehaviour
 
     private void Movement() {
         if (!isDefending) {
-            float moveHorizontal = Input.GetAxisRaw("Horizontal");  // -1 for left, 1 for right
-            float moveVertical = Input.GetAxisRaw("Vertical");  //-1 for down, 1 for up
+            float moveHorizontal = inputReader.GetMovementInput().x;  // -1 for left, 1 for right
+            float moveVertical = inputReader.GetMovementInput().y;  //-1 for down, 1 for up
 
             Vector3 inputDir = new Vector3(moveHorizontal, 0f, moveVertical).normalized;
             Vector3 movement = Quaternion.AngleAxis(mainCam.eulerAngles.y, Vector3.up) * inputDir * (isSprint ? sprintSpeed : movementSpeed);
@@ -169,8 +157,9 @@ public class Player : MonoBehaviour
         if (!isDefending) {
             if (attackTime <= 0f) {
                 animator.SetInteger("attackType", attackType); // Randomly choose an attack type between 1 and 3
+                Debug.Log(attackType);
                 attackType = (attackType < 3) ? attackType + 1 : 1; // Cycle through attack types 1, 2, 3
-                StartCoroutine(ResetAttackType()); // Reset attack type after 1 frame 
+                StartCoroutine(ResetAttackAnimation()); // Reset attack type after 1 frame 
                 attackTime = attackCooldown; // Reset cooldown
             }
 
@@ -180,7 +169,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private IEnumerator ResetAttackType() {
+    private IEnumerator ResetAttackAnimation() {
         yield return null; // 1 frame bekle
         animator.SetInteger("attackType", 0);
     }
