@@ -119,7 +119,7 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
 - **Sprint Retrospective Katılımcıları:** Mert Can Sarıbıyık, Serra İrem Dönmez, Esra Küçük.
 
 # **Sprint 3**
-- **Sprint Notları:** Sprint süresince yapılması planlanan görevler, Product Backlog içerisinde kategorilere ayrılarak düzenlenmiştir. Trello Board üzerinde kartlar, proje bölümlerine göre ayrılarak daha okunabilir ve yönetilebilir hale getirilmiştir. Klasik User Story formatı kullanılmamış; bunun yerine her kart, doğrudan yapılacak görevi ve teknik detaylarını içerecek şekilde oluşturulmuştur.
+- **Sprint Notları:** Sprint süresince yapılması planlanan görevler, Product Backlog içerisinde kategorilere ayrılarak düzenlenmiştir. Trello Board üzerinde kartlar; "Backlog", "In Progress" ve "Done" sütunları altında gruplandırılmış, görevler doğrudan teknik uygulamalara göre şekillendirilmiştir. Her kart; ilgili özelliğin geliştirilmesine dair açıklamaları ve görev dağılımlarını içermektedir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan:** 29 puan
 
@@ -140,16 +140,20 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
   - Düşman Yapay Zekası (Enemy AI): 5 puan  
   - Ses Efektleri ve AudioManager: 3 puan
 
-  ## **Sprint Board**
-<img width="1470" height="956" alt="Ekran Resmi 2025-08-03 15 57 35" src="https://github.com/user-attachments/assets/3a20bace-8949-4481-8e65-a9e7d5df0dde" />
+  - **Backlog Düzeni ve Görev Seçimi:** Backlog, oyunun görsel arayüz ve oynanış deneyimini etkileyen sistemlere öncelik verilerek hazırlanmıştır. Karakter kontrolü, UI, AI ve multiplayer gibi oynanabilirliği doğrudan etkileyen görevler bu sprintte öncelikli olarak ele alınmıştır.
 
- 
+-  **Ekip Yapısı ve Sprint Kapasitesi:** Ekip sayısı az olduğu için ve geç başlanıldığı için sabit bir sprint puanı belirlemek yerine, görevler esnek planlanmış ve yapılabilecek maksimum iş yükü göz önünde bulundurulmuştur.
+-  
 -  **Daily Scrum Süreci:** Daily Scrum toplantılarımız her gün **Jitsi Meet** üzerinden düzenlenmiştir. Ek olarak, günlük operasyonlar ve hızlı geri bildirimler için ekip içi **WhatsApp** grubu aktif olarak kullanılmıştır.
 <details>
 <summary>Daily Scrum Ekran Görüntüleri (Genişletmek için tıklayın)</summary>
 <img width="1166" height="835" alt="Ekran Resmi 2025-08-03 16 05 20" src="https://github.com/user-attachments/assets/afc6168c-2cb8-471f-b218-9e252c634bb5" />
 <img width="1166" height="904" alt="Ekran Resmi 2025-08-03 16 06 00" src="https://github.com/user-attachments/assets/0861de13-8d2f-490d-bbdb-567c50bc6ad0" />
 
+ ## **Sprint Board**
+<img width="1470" height="956" alt="Ekran Resmi 2025-08-03 15 57 35" src="https://github.com/user-attachments/assets/3a20bace-8949-4481-8e65-a9e7d5df0dde" />
+
+ 
 <details>
 <summary>Ürün Durumu: Ekran Görüntüleri (Genişletmek için tıklayın)</summary>
   <img width="1470" height="920" alt="Ekran Resmi 2025-08-03 13 50 33" src="https://github.com/user-attachments/assets/c0272e1e-15bf-4bd5-af82-81b14fda416b" />
@@ -158,6 +162,17 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
 <img width="893" height="974" alt="Ekran Resmi 2025-08-03 14 14 16" src="https://github.com/user-attachments/assets/4182fda6-5dfa-4c48-94a0-5e50739101f0" />
 
 
-- **Backlog Düzeni ve Görev Seçimi:** Backlog, oyunun temel oynanış mekaniklerine ve kullanıcı deneyimine öncelik verecek şekilde düzenlenmiştir. Görevler; görsel arayüz, karakter kontrolü, ses yönetimi ve yapay zekâ gibi ana sistemlerin geliştirilmesini hedeflemiştir.
+- **Backlog Düzeni ve Görev Seçimi:** Backlog, oyunun görsel arayüz ve oynanış deneyimini etkileyen sistemlere öncelik verilerek hazırlanmıştır. Karakter kontrolü, UI, AI ve multiplayer gibi oynanabilirliği doğrudan etkileyen görevler bu sprintte öncelikli olarak ele alınmıştır.
 
+## **Sprint Review**
+- Sprint 3 boyunca, oyunun temel etkileşim sistemleri büyük ölçüde tamamlanmıştır. Karakter kontrolü, multiplayer bağlantısı ve UI tasarımları başarıyla uygulanmıştır. Önceki sprintte geliştirilen sistemlerle bütünleşik çalışan modüller, oyun içi akışa entegre edilmiştir. Teknik olarak büyük sorunlarla karşılaşılmamıştır.
 
+- **Sprint Review Katılımcıları:** Mert Can Sarıbıyık, Serra İrem Dönmez, Esra Küçük.
+
+## **Sprint Retrospective**
+- Sprint 3 sonunda alınan ortak kararlar şunlardır:
+  - Harita tasarımları için 3. parti hazır araçlar (Tilemap/Asset Pack) değerlendirmeye alınacak.
+  - UI sisteminin yeniden kullanılabilir bileşenler üzerinden modüler olarak tasarlanmasına karar verilmiştir.
+  - Takım içi iş bölümü başarılı bulunmuş, bu dağılımın bir sonraki sprintte de benzer şekilde sürdürülmesi planlanmıştır.
+
+- **Sprint Retrospective Katılımcıları:** Mert Can Sarıbıyık, Serra İrem Dönmez, Esra Küçük.
