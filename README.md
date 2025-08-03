@@ -154,6 +154,8 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
   <img width="1470" height="920" alt="Ekran Resmi 2025-08-03 13 50 33" src="https://github.com/user-attachments/assets/c0272e1e-15bf-4bd5-af82-81b14fda416b" />
  <img width="1470" height="920" alt="Ekran Resmi 2025-08-03 15 51 18" src="https://github.com/user-attachments/assets/43cd36bc-8dea-4d00-aaa0-609a0e575715" />
 <img width="1470" height="920" alt="Ekran Resmi 2025-08-03 15 51 24" src="https://github.com/user-attachments/assets/6fbee732-82aa-438a-ba49-ae33f72f614f" />
+<img width="893" height="974" alt="Ekran Resmi 2025-08-03 14 14 16" src="https://github.com/user-attachments/assets/4182fda6-5dfa-4c48-94a0-5e50739101f0" />
+
 
 - **Backlog Düzeni ve Görev Seçimi:** Backlog, oyunun temel oynanış mekaniklerine ve kullanıcı deneyimine öncelik verecek şekilde düzenlenmiştir. Görevler; görsel arayüz, karakter kontrolü, ses yönetimi ve yapay zekâ gibi ana sistemlerin geliştirilmesini hedeflemiştir.
 
