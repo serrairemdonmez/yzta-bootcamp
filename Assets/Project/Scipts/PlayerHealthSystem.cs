@@ -1,36 +1,74 @@
-﻿using UnityEngine;
+﻿using Unity.Netcode;
+using UnityEngine;
 
 [DisallowMultipleComponent]
-public class PlayerHealthSystem : MonoBehaviour
+public class PlayerHealthSystem : NetworkBehaviour
 {
-    private Animator animator; // Reference to the player's animator component
+    [Header("References")]
+    [SerializeField] private Player playerScript; // Kontrolleri kapatmak için
+    [SerializeField] private Animator animator;
+    private HealthBar healthBar; // UI script'ine referans
 
     [Header("Health Settings")]
-    [SerializeField] private HealthBar healthBar; // Reference to the health bar UI component
+    [SerializeField] private int maxHealth = 100;
+    private NetworkVariable<int> currentHealth = new NetworkVariable<int>();
+    private NetworkVariable<bool> isDead = new NetworkVariable<bool>();
 
-    private void Awake() {
-        animator = GetComponent<Animator>();
-    }
+    public bool IsDead => isDead.Value;
 
-    private void Update() {
-        // Simulate health change for testing
-        if (Input.GetKeyDown(KeyCode.J)) {
-            Damage(50);
+    public override void OnNetworkSpawn() {
+        if (IsOwner) {
+            healthBar = GameObject.FindWithTag("HealthBar").GetComponent<HealthBar>();
+            // UI'ın başlangıç değerlerini ayarla.
+            healthBar.Initialize(maxHealth);
         }
 
+        // Can değişkenindeki değişiklikleri dinlemeye başla.
+        currentHealth.OnValueChanged += OnHealthChanged;
+
+
+        // Canı sadece sunucu belirler.
+        if (IsServer) {
+            currentHealth.Value = maxHealth;
+        }
     }
 
-    private void Damage(float damage) {
-        healthBar.DecreaseHealth(damage);
-        if (healthBar.CurrentHealth <= 0) {
+    public override void OnNetworkDespawn() {
+        // Dinlemeyi bırak.
+        currentHealth.OnValueChanged -= OnHealthChanged;
+    }
+
+    // currentHealth.Value sunucuda değiştiğinde bu fonksiyon TÜM client'larda tetiklenir.
+    private void OnHealthChanged(int previousValue, int newValue) {
+        if (IsOwner && healthBar != null) {
+            healthBar.UpdateHealth(newValue);
+        }
+    }
+
+    // Bu fonksiyon sunucu tarafında EnemyBrain tarafından çağrılacak.
+    public void TakeDamage(int amount) {
+        if (!IsServer) return;
+        if (isDead.Value) return;
+
+        currentHealth.Value = Mathf.Max(0, currentHealth.Value - amount);
+
+        if (currentHealth.Value <= 0) {
             Die();
+            isDead.Value = true; 
         }
     }
 
     private void Die() {
+        if (!IsServer) return;
+        PlayerDiedClientRpc();
+    }
+
+    [ClientRpc]
+    private void PlayerDiedClientRpc() {
         animator.SetTrigger("die");
-        // Disable player controls or perform other death-related actions
-        // For example, you might want to disable the player's movement script
-         GetComponent<Player>().enabled = false; 
+
+        if (IsOwner) {
+            playerScript.enabled = false;
+        }
     }
 }

@@ -1,45 +1,107 @@
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 [DisallowMultipleComponent]
-public class InputReader : MonoBehaviour
+public class InputReader : MonoBehaviour, PlayerInputActions.IPlayerActions
 {
-    PlayerInputActions playerInputActions;
+    private PlayerInputActions inputActions;
+
+    //Discrete Event
+    public event UnityAction<bool> Sprint = delegate { };
+    public event UnityAction<bool> Jump = delegate { };
+    public event UnityAction<bool> Attack = delegate { };
+    public event UnityAction<bool> Defend = delegate { };
+    public event UnityAction<bool> Interact = delegate { };
+
+    //Contionus Event
+    public Vector2 Move { get { return inputActions.Player.Move.ReadValue<Vector2>(); } }
 
     private void Awake() {
-        playerInputActions = new PlayerInputActions();
+        if(inputActions == null) {
+            inputActions = new PlayerInputActions();
+            inputActions.Player.SetCallbacks(this);
+        }
     }
 
     private void OnEnable() {
-        playerInputActions.Enable();
+        inputActions.Player.Enable();
     }
 
     private void OnDisable() {
-        playerInputActions.Disable();
+        inputActions.Player.Disable();
     }
 
-    public Vector2 GetMovementInput() {
-        return playerInputActions.Player.Move.ReadValue<Vector2>();
+    public void OnMove(InputAction.CallbackContext context) {
+        // noop
     }
 
-    public Vector2 GetLookInput() {
-        return playerInputActions.Player.Look.ReadValue<Vector2>();
+    public void OnSprint(InputAction.CallbackContext context) {
+        if(context.started) {
+            Sprint.Invoke(true);
+        }
+
+        else if(context.canceled) {
+            Sprint.Invoke(false);
+        }
     }
 
-    public bool IsAttackPressed() {
-        return playerInputActions.Player.Attack.IsPressed();
+    public void OnLook(InputAction.CallbackContext context) {
+        // noop
     }
 
-    public bool IsDefendPressed() {
-        return playerInputActions.Player.Defend.IsPressed();
-    }   
+    public void OnJump(InputAction.CallbackContext context) {
+        if (context.started) {
+            Jump.Invoke(true);
+        }
 
-    public bool IsSprintPressed() {
-        return playerInputActions.Player.Sprint.IsPressed();
+        else if (context.canceled) {
+            Jump.Invoke(false);
+        }
     }
 
-    public bool IsJumpTriggered() {
-        return playerInputActions.Player.Jump.triggered;
+    public void OnAttack(InputAction.CallbackContext context) {
+        if (context.started) {
+            Attack.Invoke(true);
+        }
+        else if (context.canceled) {
+            Attack.Invoke(false);
+        }
     }
+
+    public void OnDefend(InputAction.CallbackContext context) {
+        if (context.started) {
+            Defend.Invoke(true);
+        }
+
+        else if (context.canceled) {
+            Defend.Invoke(false);
+        }
+    }
+
+    public void OnInteract(InputAction.CallbackContext context) {
+        if (context.started) {
+            Interact.Invoke(true);
+        }
+
+        else if (context.canceled) {
+            Interact.Invoke(false);
+        }
+    }
+
+    public void OnCrouch(InputAction.CallbackContext context) {
+        // noop
+    }
+
+
+    public void OnNext(InputAction.CallbackContext context) {
+        // noop
+    }
+
+    public void OnPrevious(InputAction.CallbackContext context) {
+        // noop
+    }
+
 
 }
 
