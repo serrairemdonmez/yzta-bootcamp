@@ -138,7 +138,22 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
   - Karakter Kontrolcüsü Geliştirmeleri: 5 puan  
   - Multiplayer Sistemi: 3 puan  
   - Düşman Yapay Zekası (Enemy AI): 5 puan  
-  - Ses Efektleri ve AudioManager: 3 puan  
+  - Ses Efektleri ve AudioManager: 3 puan
+ 
+-  **Daily Scrum Süreci:** Daily Scrum toplantılarımız her gün **Jitsi Meet** üzerinden düzenlenmiştir. Ek olarak, günlük operasyonlar ve hızlı geri bildirimler için ekip içi **WhatsApp** grubu aktif olarak kullanılmıştır.
+<details>
+<summary>Daily Scrum Ekran Görüntüleri (Genişletmek için tıklayın)</summary>
+<img width="1166" height="835" alt="Ekran Resmi 2025-08-03 16 05 20" src="https://github.com/user-attachments/assets/afc6168c-2cb8-471f-b218-9e252c634bb5" />
+<img width="1166" height="904" alt="Ekran Resmi 2025-08-03 16 06 00" src="https://github.com/user-attachments/assets/0861de13-8d2f-490d-bbdb-567c50bc6ad0" />
+
+## **Sprint Board**
+<img width="1470" height="956" alt="Ekran Resmi 2025-08-03 15 57 35" src="https://github.com/user-attachments/assets/3a20bace-8949-4481-8e65-a9e7d5df0dde" />
+
+<details>
+<summary>Ürün Durumu: Ekran Görüntüleri (Genişletmek için tıklayın)</summary>
+  <img width="1470" height="920" alt="Ekran Resmi 2025-08-03 13 50 33" src="https://github.com/user-attachments/assets/c0272e1e-15bf-4bd5-af82-81b14fda416b" />
+ <img width="1470" height="920" alt="Ekran Resmi 2025-08-03 15 51 18" src="https://github.com/user-attachments/assets/43cd36bc-8dea-4d00-aaa0-609a0e575715" />
+<img width="1470" height="920" alt="Ekran Resmi 2025-08-03 15 51 24" src="https://github.com/user-attachments/assets/6fbee732-82aa-438a-ba49-ae33f72f614f" />
 
 - **Backlog Düzeni ve Görev Seçimi:** Backlog, oyunun temel oynanış mekaniklerine ve kullanıcı deneyimine öncelik verecek şekilde düzenlenmiştir. Görevler; görsel arayüz, karakter kontrolü, ses yönetimi ve yapay zekâ gibi ana sistemlerin geliştirilmesini hedeflemiştir.
 
