@@ -117,3 +117,29 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
   - Oyunda kullanılacak assetlerin büyük çoğunluğunun hazır (store'dan veya açık kaynaklı) olarak kullanılmasına karar verilmiştir.
   - Proje ilerledikçe asset bazlı ihtiyaçlar tekrar değerlendirilecek ve gerekli görülürse özelleştirmeye gidilecektir.
 - **Sprint Retrospective Katılımcıları:** Mert Can Sarıbıyık, Serra İrem Dönmez, Esra Küçük.
+
+# **Sprint 3**
+- **Sprint Notları:** Sprint süresince yapılması planlanan görevler, Product Backlog içerisinde kategorilere ayrılarak düzenlenmiştir. Trello Board üzerinde kartlar, proje bölümlerine göre ayrılarak daha okunabilir ve yönetilebilir hale getirilmiştir. Klasik User Story formatı kullanılmamış; bunun yerine her kart, doğrudan yapılacak görevi ve teknik detaylarını içerecek şekilde oluşturulmuştur.
+
+- **Sprint içinde tamamlanması tahmin edilen puan:** 29 puan
+
+- **Puanlama Sistemi:** Tüm backlog görevleri, zorluk derecelerine göre Fibonacci serisine dayalı puanlama ile değerlendirilmiştir. Kullanılan puan aralıkları:
+  - 13 puan → Çok zor  
+  - 8 puan → Zor  
+  - 5 puan → Orta  
+  - 3 puan → Kolay  
+  - 2 puan → Basit  
+  - 1 puan → Çok basit  
+
+  Toplam backlog puanı: **29 puan**  
+  Görevlerin tahmini puan dağılımı:
+  - Harita Tasarımları (Map Design): 8 puan  
+  - Ana Menü ve UI Tasarımları: 5 puan  
+  - Karakter Kontrolcüsü Geliştirmeleri: 5 puan  
+  - Multiplayer Sistemi: 3 puan  
+  - Düşman Yapay Zekası (Enemy AI): 5 puan  
+  - Ses Efektleri ve AudioManager: 3 puan  
+
+- **Backlog Düzeni ve Görev Seçimi:** Backlog, oyunun temel oynanış mekaniklerine ve kullanıcı deneyimine öncelik verecek şekilde düzenlenmiştir. Görevler; görsel arayüz, karakter kontrolü, ses yönetimi ve yapay zekâ gibi ana sistemlerin geliştirilmesini hedeflemiştir.
+
+
