@@ -139,15 +139,16 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
   - Multiplayer Sistemi: 3 puan  
   - Düşman Yapay Zekası (Enemy AI): 5 puan  
   - Ses Efektleri ve AudioManager: 3 puan
+
+  ## **Sprint Board**
+<img width="1470" height="956" alt="Ekran Resmi 2025-08-03 15 57 35" src="https://github.com/user-attachments/assets/3a20bace-8949-4481-8e65-a9e7d5df0dde" />
+
  
 -  **Daily Scrum Süreci:** Daily Scrum toplantılarımız her gün **Jitsi Meet** üzerinden düzenlenmiştir. Ek olarak, günlük operasyonlar ve hızlı geri bildirimler için ekip içi **WhatsApp** grubu aktif olarak kullanılmıştır.
 <details>
 <summary>Daily Scrum Ekran Görüntüleri (Genişletmek için tıklayın)</summary>
 <img width="1166" height="835" alt="Ekran Resmi 2025-08-03 16 05 20" src="https://github.com/user-attachments/assets/afc6168c-2cb8-471f-b218-9e252c634bb5" />
 <img width="1166" height="904" alt="Ekran Resmi 2025-08-03 16 06 00" src="https://github.com/user-attachments/assets/0861de13-8d2f-490d-bbdb-567c50bc6ad0" />
-
-## **Sprint Board**
-<img width="1470" height="956" alt="Ekran Resmi 2025-08-03 15 57 35" src="https://github.com/user-attachments/assets/3a20bace-8949-4481-8e65-a9e7d5df0dde" />
 
 <details>
 <summary>Ürün Durumu: Ekran Görüntüleri (Genişletmek için tıklayın)</summary>
