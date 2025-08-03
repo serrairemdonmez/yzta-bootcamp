@@ -143,7 +143,7 @@ Battle Puffs, türleri yenilikçi bir şekilde harmanlayan mekanikleri ve yükse
   - **Backlog Düzeni ve Görev Seçimi:** Backlog, oyunun görsel arayüz ve oynanış deneyimini etkileyen sistemlere öncelik verilerek hazırlanmıştır. Karakter kontrolü, UI, AI ve multiplayer gibi oynanabilirliği doğrudan etkileyen görevler bu sprintte öncelikli olarak ele alınmıştır.
 
 -  **Ekip Yapısı ve Sprint Kapasitesi:** Ekip sayısı az olduğu için ve geç başlanıldığı için sabit bir sprint puanı belirlemek yerine, görevler esnek planlanmış ve yapılabilecek maksimum iş yükü göz önünde bulundurulmuştur.
--  
+
 -  **Daily Scrum Süreci:** Daily Scrum toplantılarımız her gün **Jitsi Meet** üzerinden düzenlenmiştir. Ek olarak, günlük operasyonlar ve hızlı geri bildirimler için ekip içi **WhatsApp** grubu aktif olarak kullanılmıştır.
 <details>
 <summary>Daily Scrum Ekran Görüntüleri (Genişletmek için tıklayın)</summary>
